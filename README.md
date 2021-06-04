@@ -1,5 +1,7 @@
 # Instruction de mise en place
 
+Executer la commande `composer install`
+
 Ouvrir le fichier `.env`
 
 Editer la ligne _`DATABASE_URL`_ avec les informations de sa base de données
