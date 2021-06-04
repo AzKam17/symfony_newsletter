@@ -9,6 +9,11 @@ class MailTemplates extends Fixture
 {
     public function load(ObjectManager $manager)
     {
+        /*
+         * La ligne data représente les params de votre template
+         * Renseignez uniquement les clés, laisser les valeurs vides
+         * (Valeur à rendre dans le template)
+        */
         $arr = [
             [
                 "lib" => "Test",
@@ -18,6 +23,7 @@ class MailTemplates extends Fixture
             ]
         ];
 
+        //Laisser tel quel
         foreach ($arr as $a)
         {
             $temp = (new \App\Entity\MailTemplates())
